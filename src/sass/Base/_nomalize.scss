@@ -1,0 +1,22 @@
+.form-group{
+    
+    .form-control{
+        margin: 10px;
+        border: 1px solid $color-grey-1;
+        width: 90%;
+       
+        &:focus{
+            box-shadow : none;
+           border: 2px solid $color-grey-2;
+        }
+    }
+}
+.btn{
+    background-color: $color-orange-2 ;
+    color: $color-white-0;
+    &:hover{
+        background-color:  $color-white-0;
+        color: $color-orange-2;
+        border: 1px solid $color-orange-2;
+    }
+}
